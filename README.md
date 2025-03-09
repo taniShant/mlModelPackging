@@ -1,5 +1,6 @@
 # Outlier Package 
-### Builds a sklearn based model pipeline by picking the model defination from a configuration file (defined in model_config.json) and deploy pipeline at runtime 
+### 1.  Makefile-based approach 
+#### Builds a sklearn based model pipeline by picking the model defination from a configuration file (defined in model_config.json) and deploy pipeline at runtime 
 
 ### Uses production of wheels using setup.py
 
@@ -32,7 +33,7 @@ Create a starter environment.yml
 - make update_environment   :-Updates the environment, which will create the first lockfile
 - make delete_environment   :- deletes conda env 
 
-# A better way : Mange with Poetry (Python dependency management and packaging) 
+### 2. A better way : Mange with Poetry (Python dependency management and packaging) 
 
 - Only one configuration file, pyproject.toml ( poetry new my-ML-package )
  
