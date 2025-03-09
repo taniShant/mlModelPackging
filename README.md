@@ -2,7 +2,7 @@
 ### 1.  Makefile-based approach 
 #### Builds a sklearn based model pipeline by picking the model defination from a configuration file (defined in model_config.json) and deploy pipeline at runtime 
 
-### Uses production of wheels using setup.py
+#### Uses production of wheels using setup.py
 
 Refer json defination at model_config.json
 
@@ -16,7 +16,7 @@ Inspired by:
 * https://stackabuse.com/how-to-write-a-makefile-automating-python-setup-compilation-and-testing/
 
 
-### Testing 
+#### Testing 
 Note that if 
 
 ```pytest```
@@ -27,7 +27,7 @@ does not work, you potentially have to run
 
 in the 'outlier_package' directory. This can be becasue Pytest is not appending to your path correctly.
 
-### Steps (for using this Makefile-based approach ML model approach )
+#### Steps (for using this Makefile-based approach ML model approach )
 Create a starter environment.yml
 - make create_environment   :- install all lib dependencies listed in environment.yml
 - make update_environment   :-Updates the environment, which will create the first lockfile
