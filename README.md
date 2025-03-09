@@ -1,5 +1,5 @@
 # Outlier Package 
-# Builds a sklearn based pipeline to pick configuration based models 
+## Builds a sklearn based pipeline to pick configuratio file (.yml) defined  models and deploy pipeline at runtime
 
 Readme all about the package ...
 
