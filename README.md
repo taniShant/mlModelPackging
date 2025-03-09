@@ -2,6 +2,8 @@
 ### Builds a sklearn based model pipeline by picking the model defination from a configuration file (defined in model_config.json) and deploy pipeline at runtime 
 Refer json defination at model_config.json
 
+Uses setuptools library (setup.py) to package up our solution
+
 Readme all about the package ...
 
 Inspired by:
