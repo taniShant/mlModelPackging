@@ -38,6 +38,8 @@ Create a starter environment.yml
 - Only one configuration file, pyproject.toml ( poetry new my-ML-package )
 
 ### 3. Testing 
+- use pytest (quite robust) . Looks for files starting with test_ or _test
+- refer file test_ detectors.py in my_ml_package/test_ detectors.py
 
 ### 4. Analyzing dependencies for security issues 
 #### https://pypi.org/ project/safety/ checks against Safety DB
