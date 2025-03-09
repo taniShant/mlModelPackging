@@ -32,14 +32,7 @@ Create a starter environment.yml
 - make update_environment   :-Updates the environment, which will create the first lockfile
 - make delete_environment   :- deletes conda env 
 
-# a better way : Mange with Poetry (Python dependency management and packaging) 
+# A better way : Mange with Poetry (Python dependency management and packaging) 
 
 - Only one configuration file, pyproject.toml ( poetry new my-ML-package )
-
-├── README.md
-├── my_ML_package
-│   └── __init__.py
-├── poetry.lock
-├── pyproject.toml
-└── tests
-    └── __init__.py
+ 
