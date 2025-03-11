@@ -1,0 +1,16 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      python: 3.9
+    commands:
+      - pip install boto3 sagemaker faiss-cpu transformers sentence-transformers
+  build:
+    commands:
+      - echo " Updating FAISS embeddings..."
+      - python train.py
+      - echo " Deploying Falcon model in SageMaker..."
+      - python deploy.py
+  post_build:
+    commands:
+      - echo "Deployment completed!"
