@@ -43,6 +43,6 @@ faiss.write_index(index, "faiss_index.bin")
 #Upload faiss_index.bin to S3 so it can be loaded dynamically.
 # Upload to S3
 s3 = boto3.client('s3')
-s3.upload_file("faiss_index.bin", "your-bucket-name", "faiss_index.bin")
+s3.upload_file("faiss_index.bin", "test-s3-asvectstr-eu-west-1", "faiss_index.bin")
 
-print("✅ FAISS index updated!")
+print(" FAISS index updated!")
